@@ -1,0 +1,26 @@
+see also:
+	http://www.boost.org/doc/libs/1_55_0/more/getting_started/unix-variants.html#id23
+
+There are two main ways to link to libraries:
+
+========== WAY A: static library ==========
+$: c++ -I /usr/local/boost/include source.cpp \
+	-o source.out /usr/local/boost/lib/libboost_regex.a
+===========================================
+Note:
+	libboost_regex.a is a specified FULL name of the static link library.
+
+
+========== WAY B:  shared library =========
+$: c++ -I /usr/local/boost/include source.cpp \
+	-o source.out -L /usr/local/boost/lib -l boost_regex
+===========================================
+Note:
+	-L specify the directory /usr/local/boost/lib to search, and 
+	-l specify a library name to search for, in this case is the regex lib.
+	BUT, this is not the all!
+	adding this content to /etc/ld.so.conf if necessary:
+		/usr/local/boost/lib
+	which making ld command to search the library in /usr/local/boost/lib.
+	and run this:
+		$: ldconfig

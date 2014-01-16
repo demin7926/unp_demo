@@ -1,0 +1,1001 @@
+ 1109  mv inifile.c inifile.cpp
+ 1110  mv monitor.c monitor.cpp
+ 1111  ll
+ 1112  mv text_parse.cpp text_parse.cpp
+ 1113  ll
+ 1114  mv text_parse.c text_parse.cpp
+ 1115  ll
+ 1116  cd ..
+ 1117  make
+ 1118  find . -name "*.o"
+ 1119  find . -name "*.o" -delete
+ 1120  ll
+ 1121  find . -name "*.o"
+ 1122  make
+ 1123  l
+ 1124  ./main 
+ 1125  ll mon_dir/
+ 1126  mv mon_dir/cmpsrch_compile_err.tar.gz .
+ 1127  ll mon_dir/
+ 1128  mv cmpsrch_compile_err.tar.gz mon_dir/
+ 1129  fg
+ 1130  vim src/main.cpp 
+ 1131  l
+ 1132  mv mon_dir/cmpsrch_compile_err.tar.gz .
+ 1133  cp cmpsrch_compile_err.tar.gz mon_dir/
+ 1134  fg
+ 1135  mv mon_dir/cmpsrch_compile_err.tar.gz 
+ 1136  rm mon_dir/cmpsrch_compile_err.tar.gz 
+ 1137  cp cmpsrch_compile_err.tar.gz mon_dir/
+ 1138  fg
+ 1139  ll mon_dir/
+ 1140  rm mon_dir/cmpsrch_compile_err.tar.gz 
+ 1141  ll mon_dir/
+ 1142  cp cmpsrch_compile_err.tar.gz mon_dir/aaa.tar.gz
+ 1143  cp cmpsrch_compile_err.tar.gz mon_dir/bbb.tar.gz
+ 1144  fg
+ 1145  ll decmp_dir/
+ 1146  ll decmp_dir/13882331
+ 1147  ll decmp_dir/1388233147/
+ 1148  fg
+ 1149  cp cmpsrch_compile_err.tar.gz mon_dir/ccc.tar.gz
+ 1150  cp cmpsrch_compile_err.tar.gz mon_dir/ddd.rar
+ 1151  cp cmpsrch_compile_err.tar.gz mon_dir/ddd.tar.gz
+ 1152  fg
+ 1153  vim src/main.cpp 
+ 1154  fg
+ 1155  exit
+ 1156  cd Desktop/tools/jsoncpp-src-0.5.0
+ 1157  ll
+ 1158  find . -name scons.py
+ 1159  l doc/
+ 1160  vim doc/readme.txt 
+ 1161  python scons.py
+ 1162  cd ../../
+ 1163  ll
+ 1164  clear
+ 1165  ll
+ 1166  cp 1388222442.gzip 1388222442.gzip.bak
+ 1167  ll
+ 1168  gzip -t 1388222442.gzip
+ 1169  ll
+ 1170  gzip 1388222442.gzip
+ 1171  ll
+ 1172  gzip -d 1388222442.gzip.gz 
+ 1173  ll
+ 1174  gzip -d 1388222442.gzip
+ 1175  ll
+ 1176  gzip key1.ssh
+ 1177  ll
+ 1178  gzip -d key1.ssh.gz 
+ 1179  ll
+ 1180  gzip -d -S gzip 1388222442.gzip
+ 1181  ll
+ 1182  vim 1388222442.*
+ 1183  gzip -S gzip 1388222442.gzip
+ 1184  ll
+ 1185  gzip -S gzip 1388222442.*
+ 1186  ll
+ 1187  vim 1388222442.gzip
+ 1188  ll
+ 1189  gzip -d 1388222442.gzip
+ 1190  cp 1388222442.gzip 1388222442.gz
+ 1191  ll
+ 1192  gzip 1388222442.gz
+ 1193  gzip -d 1388222442.gz
+ 1194  ll
+ 1195  vim 1388222442
+ 1196  cd tools/my_test/
+ 1197  ll
+ 1198  ./main 
+ 1199  make
+ 1200  ./main 
+ 1201  make
+ 1202  ./main 
+ 1203  make
+ 1204  ./main 
+ 1205  make
+ 1206  ./main 
+ 1207  make
+ 1208  ./main 
+ 1209  exit
+ 1210  gzip -S .gzip 1388222442 
+ 1211  ll
+ 1212  ll mon_dir/
+ 1213  rm mon_dir/*
+ 1214  ll mon_dir/
+ 1215  ll decmp_dir/
+ 1216  rm -R decmp_dir/*
+ 1217  ll 
+ 1218  ll decmp_dir/
+ 1219  cp 1388222442.gzip mon_dir/
+ 1220  ll mon_dir/
+ 1221  rm mon_dir/*
+ 1222  ll mon_dir/
+ 1223  man inotify_add_watch
+ 1224  man inotify_rm_watch
+ 1225  man error
+ 1226  man fdopen
+ 1227  man open
+ 1228  man 2 open
+ 1229  ll
+ 1230  vim decmp_dir/1388222442 `
+ 1231  vim decmp_dir/1388222442
+ 1232  vim 1388222442 
+ 1233  ./main 
+ 1234  man error
+ 1235  ./main
+ 1236  ./main 
+ 1237  make
+ 1238  ./main 
+ 1239  make
+ 1240  ./main 
+ 1241  make
+ 1242  ./main 
+ 1243  make
+ 1244  ./main 
+ 1245  make
+ 1246  ./main 
+ 1247  make
+ 1248  ll
+ 1249  vim strtest.c
+ 1250  gcc strtest.c 
+ 1251  ll
+ 1252  fg
+ 1253  gcc strtest.c 
+ 1254  fg
+ 1255  g++ strtest.c 
+ 1256  fg
+ 1257  rm a.out 
+ 1258  make
+ 1259  find . -name "*.o"
+ 1260  find . -name "*.o" -delete
+ 1261  find . -name "*.o"
+ 1262  make
+ 1263  ./main 
+ 1264  make
+ 1265  ./main 
+ 1266  make
+ 1267  ./main 
+ 1268  make
+ 1269  ./main 
+ 1270  make
+ 1271  ./main 
+ 1272  l
+ 1273  gzip -d -S .gzip 1388222442.gzip 
+ 1274  ll
+ 1275  vim 1388222442 
+ 1276  make
+ 1277  ./main 
+ 1278  fg
+ 1279  exit
+ 1280  cd /home/mandy/Desktop/
+ 1281  ll
+ 1282  cd works/mysql_conn/
+ 1283  ll
+ 1284  vim DbBase.h
+ 1285  man mysql_store_result
+ 1286  fg
+ 1287  l
+ 1288  vim DbBase.cpp 
+ 1289  l
+ 1290  df
+ 1291  fg
+ 1292  l
+ 1293  rm Person.cpp 
+ 1294  ll
+ 1295  fg
+ 1296  ll
+ 1297  fg
+ 1298  ll
+ 1299  g++ main.cpp 
+ 1300  fg
+ 1301  g++ main.cpp 
+ 1302  ll
+ 1303  fg
+ 1304  ll
+ 1305  clear
+ 1306  ll
+ 1307  fg
+ 1308  gcc main.cpp 
+ 1309  gcc main.cpp -L /usr/lib/mysql/
+ 1310  gcc main.cpp -I /usr/include/mysql/ -L /usr/lib/mysql/
+ 1311  g++ main.cpp -I /usr/include/mysql/ -L /usr/lib/mysql/
+ 1312  fg
+ 1313  vim DbBase.h 
+ 1314  g++ main.cpp -I /usr/include/mysql/ -L /usr/lib/mysql/
+ 1315  fg
+ 1316  vim makefile
+ 1317  fg
+ 1318  exit
+ 1319  cd Desktop/tools/
+ 1320  l
+ 1321  cd my_test/
+ 1322  l
+ 1323  vim src/monitor.cpp 
+ 1324  ll ../../works/
+ 1325  ll
+ 1326  cd ..
+ 1327  ll
+ 1328  cd ..
+ 1329  ll
+ 1330  ll works/
+ 1331  ll works/cmpsrch
+ 1332  ll
+ 1333  vim 1388222442
+ 1334  cd tools/my_test/
+ 1335  fg
+ 1336  cd -
+ 1337  ll
+ 1338  vim 1388222442.gzip
+ 1339  mkdir gzip_file
+ 1340  mv 1388222442 1388222442.gzip 1388222442.gzip.bakgzip gzip_file/
+ 1341  ll
+ 1342  cp gzip_file/1388222442.gzip .
+ 1343  ll
+ 1344  chmod o-x 1388222442.gzip 
+ 1345  ll
+ 1346  chmod 0644 1388222442.gzip 
+ 1347  ll
+ 1348  vim 1388222442.gzip 
+ 1349  gzip -d 1388222442.gzip 
+ 1350  gzip -d 1388222442.gzip -S gzip
+ 1351  ll
+ 1352  vim 1388222442. 
+ 1353  gzip -S gzip 1388222442. 
+ 1354  ll
+ 1355  vim 1388222442.gzip 
+ 1356  ll
+ 1357  gzip -S .gzip 1388222442.gzip 
+ 1358  gzip -d -S .gzip 1388222442.gzip 
+ 1359  ll
+ 1360  vim 1388222442 
+ 1361  gzip -S .gzip 1388222442 
+ 1362  ll
+ 1363  gzip -l 1388222442.gzip 
+ 1364  gzip -S .gzip 1388222442.gzip tools/my_test/
+ 1365  gzip -d -S .gzip 1388222442.gzip tools/my_test/
+ 1366  gzip -d -S .gzip 1388222442.gzip > tools/my_test/
+ 1367  ll
+ 1368  gzip -S .gzip 1388222442 
+ 1369  ll
+ 1370  tar -zxf 1388222442.gzip 
+ 1371  ll
+ 1372  gunzip 1388222442.gzip 
+ 1373  gunzip -S .gzip 1388222442.gzip 
+ 1374  ll
+ 1375  vim 1388222442 
+ 1376  gzip -S 1388222442 
+ 1377  ll
+ 1378  gzip -S .gzip 1388222442 
+ 1379  ll
+ 1380  gunzip -S .gzip 1388222442.gzip -C tools/my_test/
+ 1381  gunzip -S .gzip 1388222442.gzip -c tools/my_test/
+ 1382  ll
+ 1383  ll tools/my_test/
+ 1384  ll
+ 1385  gunzip -d -S .gzip 1388222442.gzip 
+ 1386  ll
+ 1387  gzip 1388222442 
+ 1388  ll
+ 1389  gunzip 1388222442.gz 
+ 1390  ll
+ 1391  gzip -S .gzip 1388222442 
+ 1392  ll
+ 1393  gunzip -S .gzip 1388222442.gzip tools/
+ 1394  gunzip -S .gzip 1388222442.gzip -C tools/
+ 1395  gzip --help
+ 1396  ll
+ 1397  gzip -S .gzip 1388222442 
+ 1398  ll
+ 1399  mv 1388222442.gzip tools/my_test/ && gunzip -S .gzip tools/my_test/1388222442.gzip
+ 1400  ll
+ 1401  ll tools/my_test/
+ 1402  fg
+ 1403  cd tools/my_test/
+ 1404  l
+ 1405  f
+ 1406  fg
+ 1407  jobs
+ 1408  vim src/monitor.cpp 
+ 1409  make
+ 1410  ll
+ 1411  ./main 
+ 1412  fg
+ 1413  man fdopen
+ 1414  fg
+ 1415  ll
+ 1416  ll decmp_dir/
+ 1417  ll
+ 1418  cp 1388222442.gzip decmp_dir/
+ 1419  cd decmp_dir/
+ 1420  ll
+ 1421  gunzip -S .gzip 1388222442.gzip 
+ 1422  ll
+ 1423  clear
+ 1424  vim test.cpp
+ 1425  ll
+ 1426  g++ test.cpp 
+ 1427  fg
+ 1428  g++ test.cpp 
+ 1429  fg
+ 1430  g++ test.cpp 
+ 1431  ./a.out 
+ 1432  ll
+ 1433  ./a.out 1388222442 
+ 1434  fg
+ 1435  ll
+ 1436  mv test.cpp test.c
+ 1437  ll
+ 1438  gcc test.c 
+ 1439  ./a.out 
+ 1440  vim data.txt
+ 1441  ./a.out data.txt 
+ 1442  ./a.out 1388222442 
+ 1443  ./a.out 1388222442 > res.txt
+ 1444  ll
+ 1445  vim res.txt 
+ 1446  fg
+ 1447  vim test.c 
+ 1448  gcc test.c 
+ 1449  ./a.out data.txt > res.txt 
+ 1450  ll
+ 1451  ./a.out 1388222442 > res.txt 
+ 1452  ll
+ 1453  vim res.txt 
+ 1454  rm res.txt 
+ 1455  l
+ 1456  ll
+ 1457  fg
+ 1458  vim test.c 
+ 1459  fg
+ 1460  cd ../
+ 1461  ll
+ 1462  ll src/
+ 1463  fg
+ 1464  ll
+ 1465  make
+ 1466  fg
+ 1467  make
+ 1468  ll
+ 1469  ll mon_dir/
+ 1470  ll decmp_dir/
+ 1471  rm decmp_dir/1388222442 
+ 1472  ll
+ 1473  gunzip -
+ 1474  gunzip -S .gzip 1388222442.gzip 
+ 1475  ll
+ 1476  vim 1388222442 
+ 1477  gzip -d -S .gzip 1388222442 
+ 1478  gzip -S .gzip 1388222442 
+ 1479  kk
+ 1480  ll
+ 1481  gunzip -S .gzip 1388222442.gzip 
+ 1482  ll
+ 1483  fg
+ 1484  ll
+ 1485  gzip -S .gzip 1388222442 
+ 1486  ll
+ 1487  cp 1388222442.gzip mon_dir/
+ 1488  ll mon_dir/
+ 1489  ll decmp_dir/
+ 1490  rm decmp_dir/1388222442 
+ 1491  fg
+ 1492  make
+ 1493  ll decmp_dir/
+ 1494  ll mon_dir/
+ 1495  cp 1388222442.gzip mon_dir/
+ 1496  ll decmp_dir/
+ 1497  fg
+ 1498  make
+ 1499  ll mon_dir/
+ 1500  ll decmp_dir/
+ 1501  rm decmp_dir/1388222442 
+ 1502  ll
+ 1503  ll decmp_dir/
+ 1504  cp 1388222442.gzip mon_dir/
+ 1505  fg
+ 1506  ll mon_dir/
+ 1507  ll decmp_dir/
+ 1508  rm decmp_dir/1388222442 
+ 1509  cp 1388222442.gzip mon_dir/
+ 1510  fg
+ 1511  rm decmp_dir/1388222442.gzip 
+ 1512  ll
+ 1513  ll mon_dir/n
+ 1514  ll mon_dir/
+ 1515  cp 1388222442.gzip mon_dir/
+ 1516  fg
+ 1517  rm decmp_dir/1388222442.gzip 
+ 1518  cp 1388222442.gzip mon_dir/
+ 1519  fg
+ 1520  man strcpy
+ 1521  fg
+ 1522  rm decmp_dir/1388222442.gzip 
+ 1523  cp 1388222442.gzip mon_dir/
+ 1524  gh
+ 1525  fg
+ 1526  man strerror
+ 1527  fg
+ 1528  cp 1388222442.gzip mon_dir/
+ 1529  fg
+ 1530  ll mon_dir/
+ 1531  rm mon_dir/1388222442.gzip 
+ 1532  rm decmp_dir/1388222442.gzip 
+ 1533  cp 1388222442.gzip mon_dir/
+ 1534  ll mon_dir/
+ 1535  ll decmp_dir/
+ 1536  rm decmp_dir/1388222442 
+ 1537  fg
+ 1538  man strstr
+ 1539  fg
+ 1540  man strstr
+ 1541  fg
+ 1542  man strstr
+ 1543  fg
+ 1544  man strstr
+ 1545  fg
+ 1546  man strcasestr
+ 1547  fg
+ 1548  man strstr
+ 1549  fg
+ 1550  man strchr
+ 1551  fg
+ 1552  man strchr
+ 1553  fg
+ 1554  man strstr
+ 1555  fg
+ 1556  cp 1388222442.gzip mon_dir/
+ 1557  fg
+ 1558  rm decmp_dir/1388222442 
+ 1559  cp 1388222442.gzip mon_dir/
+ 1560  fg
+ 1561  rm decmp_dir/1388222442 
+ 1562  ll
+ 1563  ll decmp_dir/
+ 1564  gzip -S decmp_dir/data.txt 
+ 1565  gzip -S .gzip decmp_dir/data.txt 
+ 1566  ll
+ 1567  ll decmp_dir/
+ 1568  mv decmp_dir/data.txt.gzip .
+ 1569  ll decmp_dir/
+ 1570  ll
+ 1571  cp data.txt.gzip mon_dir/
+ 1572  fg
+ 1573  rm decmp_dir/data.txt 
+ 1574  cp data.txt.gzip mon_dir/
+ 1575  fg
+ 1576  rm decmp_dir/data.txt 
+ 1577  cp data.txt.gzip mon_dir/
+ 1578  rm decmp_dir/data.txt 
+ 1579  cp 1388222442.gzip mon_dir/
+ 1580  fg
+ 1581  ll
+ 1582  rm decmp_dir/1388222442 
+ 1583  gzip -S .gzip 1388222442 
+ 1584  cp 1388222442.gzip mon_dir/
+ 1585  fg
+ 1586  fhg
+ 1587  fg
+ 1588  l
+ 1589  cd ../
+ 1590  cd ..
+ 1591  cd works/mysql_conn/
+ 1592  vim person_add.c 
+ 1593  mysql -u rot -p
+ 1594  mysql -u root -p
+ 1595  fg
+ 1596  mysql -u root
+ 1597  mysql -u root -p
+ 1598  fg
+ 1599  ll
+ 1600  exit
+ 1601  apt-get install svn
+ 1602  apt-get install svnserver
+ 1603  apt-cache search svn
+ 1604  exit
+ 1605  ll
+ 1606  cd /home/mandy/Desktop/
+ 1607  ll
+ 1608  git pull https://github.com/demin7926/unp_demo.git
+ 1609  git clone https://github.com/demin7926/unp_demo.git
+ 1610  cd unp_demo/
+ 1611  ll
+ 1612  git pull
+ 1613  ll
+ 1614  cd ..
+ 1615  ll
+ 1616  ll tools/
+ 1617  ll tools/my_test/
+ 1618  ll tools/my_test/mon_dir/
+ 1619  ll tools/my_test/decmp_dir/
+ 1620  ll
+ 1621  ll tools/
+ 1622  cd unp_demo/
+ 1623  ll
+ 1624  mkdir somecode
+ 1625  ll
+ 1626  cp -r ../tools somecode/
+ 1627  ll somecode/
+ 1628  ll somecode/tools/
+ 1629  rm -rf somecode/tools/jsoncpp somecode/tools/jsoncpp-src-0.5.0
+ 1630  ll somecode/tools/
+ 1631  tar -zcf somecode/tools/my_test/* -C somecode/tools/
+ 1632  ll somecode/tools/
+ 1633  tar -zcf my_test.tar.gz somecode/tools/my_test/* -C somecode/tools/
+ 1634  ll somecode/tools/
+ 1635  cd somecode/tools/
+ 1636  ll
+ 1637  ll my_test/
+ 1638  ll
+ 1639  tar -zcf my_test.tar.gz my_test/
+ 1640  ll
+ 1641  man tar
+ 1642  tar -tf my_test.tar.gz 
+ 1643  ll
+ 1644  rm -rf my_test
+ 1645  ll
+ 1646  cd ../../
+ 1647  ll
+ 1648  cp -r ../works somecode/
+ 1649  ll somecode/
+ 1650  cd somecode/works/
+ 1651  ll
+ 1652  du -h 
+ 1653  cd ..
+ 1654  ll
+ 1655  ll tools/
+ 1656  ll works/
+ 1657  ll
+ 1658  tar -zcf works.tar.gz works
+ 1659  ll
+ 1660  ll -tf works.tar.gz 
+ 1661  tar -tf works.tar.gz 
+ 1662  ll
+ 1663  rm -rf works
+ 1664  ll
+ 1665  cd ..
+ 1666  ll
+ 1667  rm my_test.tar.gz 
+ 1668  ll
+ 1669  git status
+ 1670  git help
+ 1671  git add somecode
+ 1672  git commit
+ 1673  git status
+ 1674  git commit
+ 1675  git status
+ 1676  git push
+ 1677  git commit
+ 1678  git status 
+ 1679  git commit -m "add file from current works to somecode"
+ 1680  git status
+ 1681  git pus
+ 1682  git push
+ 1683  cd ..
+ 1684  ll
+ 1685  fg
+ 1686  shutdown -h now
+ 1687  apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
+ 1688  man tee 
+ 1689  echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list
+ 1690  ll /etc/apt/sources.list.d/mongodb.list 
+ 1691  vim /etc/apt/sources.list.d/mongodb.list 
+ 1692  apt-get update
+ 1693  apt-get install mongodb-10gen
+ 1694  vim /etc/mongodb.conf
+ 1695  whereis mongodb
+ 1696  ll /var/log/mongodb/mongodb.log 
+ 1697  ll /var/lib/mongodb/ 
+ 1698  ll /var/lib/mongod* 
+ 1699  ll /var/lib/mon*
+ 1700  ll /var/lib/m*
+ 1701  service mongodb status
+ 1702  ps -aux | grep mongodb
+ 1703  service mongodb stop
+ 1704  ps -aux | grep mongod
+ 1705  ps -aux | grep mongo
+ 1706  service mongodb start
+ 1707  whereis mongo
+ 1708  mongo
+ 1709  shutdown -h now
+ 1710  ll
+ 1711  ls -l
+ 1712  ls 
+ 1713  ll
+ 1714  ls -la
+ 1715  ls -laF
+ 1716  ll /proc/
+ 1717  ls -laF /proc/
+ 1718  l
+ 1719  cd ~mandy/Desktop/unp_demo/
+ 1720  l
+ 1721  ll
+ 1722  mkdir unixdomain
+ 1723  ll
+ 1724  git status
+ 1725  git add 
+ 1726  git add .
+ 1727  git status
+ 1728  git commit
+ 1729  git ?
+ 1730  git --help
+ 1731  git help commit
+ 1732  git status
+ 1733  cd ..
+ 1734  l
+ 1735  mkdir aaa
+ 1736  cd aaa/
+ 1737  git clone ../unp_demo/.git/
+ 1738  ll
+ 1739  ll unp_demo/
+ 1740  cd ../unp_demo/
+ 1741  ll
+ 1742  git status
+ 1743  git add unixdomain/
+ 1744  git status
+ 1745  git add unixdomain
+ 1746  git pull 
+ 1747  cd ..
+ 1748  l
+ 1749  history | grep git >his_git
+ 1750  vim his_git 
+ 1751  rm his_git 
+ 1752  cd unp_demo/
+ 1753  ll
+ 1754  git add .
+ 1755  git commit
+ 1756  git push
+ 1757  ll
+ 1758  vim haha.txt
+ 1759  git add
+ 1760  git add .
+ 1761  git status
+ 1762  git commit
+ 1763  git pull
+ 1764  git commit -m "add haha.txt"
+ 1765  git pull
+ 1766  git status
+ 1767  cd ../aaa/
+ 1768  ll
+ 1769  cd unp_demo/
+ 1770  git help
+ 1771  git pull
+ 1772  ll
+ 1773  cd ../unp_demo/
+ 1774  ll
+ 1775  git push https://github.com/demin7926/unp_demo.git
+ 1776  git rm haha.txt
+ 1777  git status
+ 1778  git commit -m "remove haha.txt"
+ 1779  git push https://github.com/demin7926/unp_demo.git
+ 1780  ll
+ 1781  cd ../../unp_demo/
+ 1782  ll
+ 1783  git pull
+ 1784  ll
+ 1785  git status
+ 1786  git help add
+ 1787  git add unixdomain/*
+ 1788  git add unixdomain
+ 1789  cd unixdomain/
+ 1790  ll
+ 1791  vim unixbind.c
+ 1792  man getsockname
+ 1793  fg
+ 1794  l
+ 1795  gcc unixbind.c 
+ 1796  fg
+ 1797  gcc unixbind.c 
+ 1798  ll
+ 1799  ./a.out 
+ 1800  fg
+ 1801  gcc unixbind.c 
+ 1802  ./a.out 
+ 1803  ./a.out sss
+ 1804  ll
+ 1805  fg
+ 1806  ./a.out sss
+ 1807  fg
+ 1808  umask
+ 1809  fg
+ 1810  gcc unixbind.c 
+ 1811  ll
+ 1812  ./a.out aaa
+ 1813  ll
+ 1814  ./a.out aaa
+ 1815  ll
+ 1816  rm aaa sss 
+ 1817  ll
+ 1818  fg
+ 1819  l
+ 1820  rm a.out 
+ 1821  ll
+ 1822  cd ..
+ 1823  ll
+ 1824  git add .
+ 1825  git status
+ 1826  git commit -m "adding a simple unixdomain demo"
+ 1827  git status
+ 1828  git push
+ 1829  man read_Fd
+ 1830  man read_fd
+ 1831  man 2 read_fd
+ 1832  man \3 read_fd
+ 1833  man 3 read_fd
+ 1834  shutdown -h now
+ 1835  cd /home/mandy/Desktop/unp_demo/
+ 1836  ll
+ 1837  l v2/
+ 1838  ll
+ 1839  vim v2/serv.c 
+ 1840  man getpwnam
+ 1841  apt-cache search libssl-dev
+ 1842  apt-get install libssl-de
+ 1843  ll /usr/share/doc/libssl-dev/
+ 1844  ll /usr/share/doc/libssl-doc/
+ 1845  ll /usr/share/doc/libssl-doc/demos/
+ 1846  ll /usr/share/doc/libssl-doc/demos/bio/
+ 1847  vim /usr/share/doc/libssl-doc/demos/bio/README 
+ 1848  cd /usr/share/doc/libssl-doc/
+ 1849  ll
+ 1850  zip domos.zip demos/
+ 1851  ll
+ 1852  rm domos.zip 
+ 1853  zip demos.zip demos
+ 1854  ll
+ 1855  rm -r demos.zip 
+ 1856  ll
+ 1857  man zip
+ 1858  zip -r demos.zip demos
+ 1859  ll
+ 1860  man zip
+ 1861  ll
+ 1862  rm demos.zip 
+ 1863  ll
+ 1864  tar -zcf demos.tar.gz demos/
+ 1865  ll
+ 1866  man tar
+ 1867  tar -tf demos.tar.gz 
+ 1868  clear
+ 1869  l
+ 1870  ll demos
+ 1871  vim copyright 
+ 1872  vim demos/README 
+ 1873  ll
+ 1874  ll ../libssl-dev/
+ 1875  ll
+ 1876  ll demos
+ 1877  ll demos/eay
+ 1878  openssl 
+ 1879  ll /usr/local/include/
+ 1880  whereis ssl
+ 1881  vim /usr/include/arpa/inet.h 
+ 1882  cd /home/mandy/Desktop/
+ 1883  l
+ 1884  ll aaa/
+ 1885  rm -rf aaa/
+ 1886  l
+ 1887  mkdir ssl
+ 1888  mv openssl-1.0.1f.tar.gz ssl_test.zip ssl
+ 1889  ll
+ 1890  l
+ 1891  cd ssl
+ 1892  l
+ 1893  unzip ssl_test.zip 
+ 1894  ll
+ 1895  cd ssl_test/
+ 1896  ll
+ 1897  vim readme 
+ 1898  vim mk_server.sh 
+ 1899  fg
+ 1900  l
+ 1901  fg
+ 1902  mk_server.sh
+ 1903  ./mk_server.sh
+ 1904  sh mk_server.sh 
+ 1905  ll
+ 1906  sh mk_client.sh 
+ 1907  ll
+ 1908  cat readme 
+ 1909  sh make_key.sh 
+ 1910  ll
+ 1911  sh run_server.sh 
+ 1912  vim make_key.sh 
+ 1913  ll
+ 1914  cd ..
+ 1915  ll
+ 1916  cd ../unp_demo/
+ 1917  l
+ 1918  mkdir ssl
+ 1919  ll
+ 1920  rm -rf ssl
+ 1921  cp ../ssl .
+ 1922  cp -r ../ssl .
+ 1923  l
+ 1924  ll
+ 1925  git add .
+ 1926  git status
+ 1927  git commit -m "adding a ssl test demo in ssl/ssl_test"
+ 1928  git status
+ 1929  git push
+ 1930  opessl
+ 1931  openssl
+ 1932  shutdown -h now
+ 1933  cd /home/mandy/Desktop/unp_demo/
+ 1934  cd ssl/
+ 1935  ll
+ 1936  vim ssl_test/ssl_server.cpp 
+ 1937  man ssl_library_init
+ 1938  fg
+ 1939  exit
+ 1940  cd /home/mandy/Desktop/unp_demo/ssl/ssl_test/
+ 1941  l
+ 1942  file ssl_server.cpp 
+ 1943  vim ssl_server.cpp 
+ 1944  file ssl_server.cpp 
+ 1945  vim ssl_server.cpp 
+ 1946  file ssl_server.cpp 
+ 1947  cat ssl_server.cpp 
+ 1948  clear
+ 1949  vim ssl_server
+ 1950  vim ssl_server.cpp 
+ 1951  scp root@115.28.6.94:/root ssl_server.cpp 
+ 1952  scp root@115.28.6.94:/root/ssl_server.cpp ssl_server.cpp 
+ 1953  scp ssl_server.cpp root@115.28.6.94:/root/
+ 1954  ll
+ 1955  file ssl_server.cpp 
+ 1956  pwd
+ 1957  git status
+ 1958  git pull
+ 1959  git status
+ 1960  cd ../../../
+ 1961  l
+ 1962  mkdir aaa
+ 1963  cd aaa
+ 1964  git clone https://github.com/demin7926/unp_demo.git
+ 1965  ll
+ 1966  cd unp_demo/
+ 1967  l
+ 1968  cd ../../
+ 1969  l
+ 1970  rm -rf unp_demo
+ 1971  mv -r aaa unp_demo
+ 1972  mv -R aaa unp_demo
+ 1973  mv aaa unp_demo
+ 1974  ll
+ 1975  cd unp_demo/
+ 1976  l
+ 1977  ls -l unp_demo/
+ 1978  ls -la
+ 1979  ll
+ 1980  ll unp_demo/
+ 1981  l
+ 1982  cd ..
+ 1983  mv unp_demo/unp_demo/ ./unp_demo2
+ 1984  l
+ 1985  l unp_demo2/
+ 1986  ll unp_demo2/
+ 1987  rm -rf unp_demo
+ 1988  mv unp_demo2 unp_demo
+ 1989  l
+ 1990  ll
+ 1991  ll unp_demo
+ 1992  fg
+ 1993  vim unp_demo/ssl/ssl_test/ssl_server.cpp 
+ 1994  file unp_demo/ssl/ssl_test/ssl_server.cpp 
+ 1995  vim unp_demo/ssl/ssl_test/ssl_server.cpp 
+ 1996  file unp_demo/ssl/ssl_test/ssl_server.cpp 
+ 1997  locale
+ 1998  vim /root/.vimrc 
+ 1999  vim unp_demo/ssl/ssl_test/ssl_server.cpp 
+ 2000  shutdown -h now
+ 2001  man boost
+ 2002  cd /home/mandy/Downloads/
+ 2003  l
+ 2004  tar -zxf boost_1_55_0.tar.gz 
+ 2005  l
+ 2006  cd boost_1_55_0/
+ 2007  l
+ 2008  l boost
+ 2009  l
+ 2010  ll
+ 2011  cd ..
+ 2012  l
+ 2013  cd boost_1_55_0/
+ 2014  l
+ 2015  mkdir mytest
+ 2016  l
+ 2017  vim mytest/example.cpp
+ 2018  cd mytest/
+ 2019  l
+ 2020  c++ -I /home/mandy/Downloads/boost_1_55_0 example.cpp -o example
+ 2021  l
+ 2022  ./example 
+ 2023  echo 1 2 3 | ./example 
+ 2024  clear
+ 2025  l
+ 2026  cd ../
+ 2027  l
+ 2028  ./bootstrap.sh --help
+ 2029  ./bootstrap.sh --prefix=/usr/local/boost
+ 2030  l
+ 2031  ./b2 --help
+ 2032  ./b2 install
+ 2033  ll
+ 2034  clear
+ 2035  l /usr/local/boost/lib/
+ 2036  l /usr/local/boost/include/
+ 2037  l /usr/local/boost/include/boost/
+ 2038  ll /usr/local/boost/lib/libboost_
+ 2039  man getline
+ 2040  l
+ 2041  cd mytest/
+ 2042  cd ../../../Desktop/cpp_test/
+ 2043  l
+ 2044  mkdir boost
+ 2045  cd boost/
+ 2046  vim test_regex.cpp
+ 2047  l
+ 2048  c++ test_regex.cpp 
+ 2049  c++ -I /usr/local/boost/ test_regex.cpp 
+ 2050  c++ -I /usr/local/boost/include/ test_regex.cpp 
+ 2051  l
+ 2052  c++ -I /usr/local/boost/include/ test_regex.cpp -o test_regex -L /usr/local/boost/lib/ -lboost_regex
+ 2053  l
+ 2054  ./test_regex 
+ 2055  c++ -I /usr/local/boost/include/ test_regex.cpp -o test_regex -L /usr/local/boost/lib/ -lboost_regex -static
+ 2056  l
+ 2057  cp /home/mandy/Downloads/boost_1_55_0/mytest/example.cpp .
+ 2058  ll
+ 2059  mv example.cpp test_simple.cpp
+ 2060  c++ test_simple.cpp -I /usr/local/boost/include/
+ 2061  l
+ 2062  echo 1 2 3 | ./a.out 
+ 2063  rm a.out 
+ 2064  l
+ 2065  l /usr/local/boost/lib/libboost_regex.*
+ 2066  c++ -I path/to/boost_1_55_0 example.cpp -o example \
+ 2067  c++ -I /usr/local/boost/include/ test_regex.cpp -L /usr/local/boost/lib/ -l boost_regex
+ 2068  l
+ 2069  ./a.out 
+ 2070  c++ -I /usr/local/boost/include/ test_regex.cpp -L /usr/local/boost/lib/ -l boost_regex -static
+ 2071  g++ -I /usr/local/boost/include/ test_regex.cpp -L /usr/local/boost/lib/ -l boost_regex
+ 2072  l
+ 2073  ./a.out 
+ 2074  cp /usr/local/boost/lib/libboost_regex.so.1.55.0 .
+ 2075  l
+ 2076  g++ -I /usr/local/boost/include/ test_regex.cpp -l libboost_regex.so.1.55.0 
+ 2077  g++ -I /usr/local/boost/include/ test_regex.cpp -l boost_regex.so.1.55.0 
+ 2078  g++ -I /usr/local/boost/include/ test_regex.cpp -L . -l boost_regex.so.1.55.0 
+ 2079  g++ -I /usr/local/boost/include/ test_regex.cpp -L . -l boost_regex
+ 2080  g++ -I /usr/local/boost/include/ test_regex.cpp libboost_regex.so.1.55.0 
+ 2081  l
+ 2082  ./a.out 
+ 2083  cp /usr/local/boost/lib/libboost_regex.a .
+ 2084  l
+ 2085  g++ -I /usr/local/boost/include/ test_regex.cpp libboost_regex.a 
+ 2086  l
+ 2087  ./a.out 
+ 2088  env 
+ 2089  env | grep LIBRARY
+ 2090  vim test_regex.data1
+ 2091  ./a.out < test_regex.data1 
+ 2092  l
+ 2093  mv a.out test_regex.static.out
+ 2094  l
+ 2095  ll
+ 2096  vim compile_note.txt
+ 2097  l *.a >> compile_note.txt 
+ 2098  vim compile_note.txt 
+ 2099  g++ test_regex.cpp -I /usr/local/boost/include/ -o b.out /usr/local/boost/lib/libboost_regex.a
+ 2100  l
+ 2101  ./b.out < test_regex.data1 
+ 2102  vim compile_note.txt 
+ 2103  l
+ 2104  rm b.out 
+ 2105  g++ -I /usr/local/boost/include/ -o test_regex.cpp -o b.out -L /usr/local/boost/lib/ -lboost_regex
+ 2106  g++ -I /usr/local/boost/include/ -o test_regex.cpp -o b.out -L /usr/local/boost/lib/ -lboost_regex.o
+ 2107  g++ -I /usr/local/boost/include/ -o test_regex.cpp -o b.out -L /usr/local/boost/lib/ -l boost_regex
+ 2108  history > his
+ 2071  g++ -I /usr/local/boost/include/ test_regex.cpp -L /usr/local/boost/lib/ -l boost_regex

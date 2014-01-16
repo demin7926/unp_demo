@@ -19,8 +19,11 @@ Note:
 	-L specify the directory /usr/local/boost/lib to search, and 
 	-l specify a library name to search for, in this case is the regex lib.
 	BUT, this is not the all!
-	adding this content to /etc/ld.so.conf if necessary:
+	adding this below contents to /etc/ld.so.conf if necessary:
 		/usr/local/boost/lib
 	which making ld command to search the library in /usr/local/boost/lib.
 	and run this:
 		$: ldconfig
+	By simple, those can do by:
+		$: export LD_LIBRARY_PATH=/usr/local/boost/lib
+	
